@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body>
+     <div>
+        <div class="container mx-auto bg-white border-solid border-neutral-100 shadow-lg rounded-md w-[750px] h-auto mt-56 relative mb-6">
+            <p class="text-center text-xl pb-4 font-semibold">List Movie Raffy_samaa</p>
+            <div class="text-center mt-2">
+             <input type="text" name="" id="input" placeholder="secrh disini..." class="border-solid border w-1/2 h-12 rounded-md text-xl p-2">
+             <button id="buton" class="ml-12 px-6 py-3 rounded-md text-white bg-slate-500 mb-3">serch</button>
+        </div>
+     </div>
+     <div class="flex justify-center flex-wrap" id="viewhome">
+     </div>
+</body>
+<script src="main.js"></script>
+</html>
